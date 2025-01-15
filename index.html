@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Google Font Start -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+		<!-- Google Font End -->
+
+		<!-- Bootstrap CSS Start-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<!-- Bootstrap CSS End-->
+
+		<!-- Externals CSS Start-->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<!-- Externals CSS End-->
+
+		<title>Capstone 1</title>
+	</head>
+	<body>
+		<!-- Navbar Section Start -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<div class="container-fluid">
+				<a class="navbar-brand ms-5" href="#">Grace Portfolio</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-5">
+						<a class="nav-link active" aria-current="page" href="#landing">Home</a>	
+						<a class="nav-link" href="#about">About</a>
+						<a class="nav-link" href="#projects">Projects</a>
+						<a class="nav-link" href="#contact">Contact Us</a>
+						<a class="nav-link" href="#tools">Tools</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Navbar Section End -->
+
+		<!-- Main Content Section Start -->
+		<div class="container-fluid text-center">
+			<!-- Landing Section Start -->
+			<div class="row align-items-center mx-auto p-5" id="landing" >
+				<div class="col-md-6 col-sm-12 float-start ">
+					<img src="./images/formal-pic.JPG" class="rounded-circle float-end img-fluid" width="400" height="250">
+				</div>
+				<div class="col-md-3 text-start">
+					<h1>Grace Pontanar</h1>
+					<h3 class="pb-5">Full Stack Web Developer</h3>
+					<p id="p-landing">Still in the process of building my webpage and exploring exciting new ideas for my IT career! I’m particularly interested in crafting a website from scratch. It’s an exhilarating journey of learning and discovery.</p>
+
+					<button onclick="location.href='#projects'" class="btn btn-outline-dark mt-3" >Check out My Projects!</a></button>
+				</div>
+			</div>  
+		<!-- Landing Section End -->
+		</div>
+		<!-- About Me Start -->
+		<div class="container" id="about">
+			<div class="row align-items-center">
+				<div class=" row col my-5 p-5">
+					<img src="./images/about-me.jpg" class="img-fluid mx-auto" width="250" height="250">
+				</div>
+				<div class="col-12 col-md-6 order-2 order-md-2 text-start">
+						<h3 id="text-title" class="pt-5">About Me</h3>
+						<p>Driven by a passion for web development, I made the decision to transition from my role in technical support to pursue a more hands-on approach in web development. This shift allows me to align my time and energy more closely with my professional aspirations and creative interests. By managing my time independently, I can delve deeper into the realms of web development, exploring innovative solutions and pushing the boundaries of what's possible in the digital landscape.</p>
+
+						<p>I look forward to leveraging my diverse background and expertise to create impactful digital experiences and solutions in the realm of web development.</p>							
+				</div>		
+			</div>		
+		</div>
+		<!-- About Me End -->
+
+		<!-- Projects Section Start -->
+        <div id="projects" class="container-fluid p-5 mt-5">
+
+            <h3 class="text-center p-5">Projects</h3>
+
+            <!-- Other Projects Start -->
+            <div id="other-projects" class="row text-center d-flex flex-md-row-reverse justify-content-around">
+
+                <!-- HTML Card Start -->
+                <div id="html" class="col-12 col-md-3 mb-4">
+                    <div class="card h-100">
+                    <img src="./images/html-card.png">
+                    <h5>HTML</h5>
+                    <p id="p-proj">HTML (HyperText Markup Language) is the standard language used to create the structure of web pages. It defines the layout and content of a webpage using elements and tags, such as headings, paragraphs, links, images, and forms. As the backbone of web development, HTML works in conjunction with CSS for styling and JavaScript for interactivity.
+                    </div>
+                </div>
+                <!-- HTML Card End -->
+
+                <!-- Bootstrap Card Start -->
+                <div id="bootstrap" class="col-12 col-md-3 mb-4">
+                    <div class="card h-100">
+                    <img src="./images/bootstrap-card.png">
+                    <h5>Bootstrap</h5>
+                    <p id="p-proj">Bootstrap is a popular front-end framework for building responsive, mobile-first websites. It provides a collection of pre-designed components, templates, and utilities for HTML, CSS, and JavaScript. Developers use it to quickly create visually appealing and consistent layouts without starting from scratch. It includes features like a grid system, navigation bars, buttons, and form controls, making web development faster and more efficient.</p>
+                    </div>
+
+                </div>
+                <!-- Bootstrap Card End -->
+
+                <!-- Node JS Server Card Start -->
+                <div id="nodejs" class="col-12 col-md-3 mb-4">
+                    <div class="card h-100">
+                    <img src="./images/nodejs-card.png">
+                    <h5>Node JS Server</h5>
+                    <p id="p-proj">Node.js is a powerful, open-source, server-side runtime environment built on the V8 JavaScript engine. It allows developers to run JavaScript outside the browser, enabling backend development. Known for its non-blocking, event-driven architecture, Node.js is ideal for building scalable, real-time applications such as chat servers, APIs, and web applications. It has a vast ecosystem of libraries accessible via npm (Node Package Manager).</p>
+                </div>
+            </div>
+                <!-- Node JS Server Card End -->
+
+            </div>      
+ 		</div>
+ 		<!-- Projects End -->
+
+ 		<!-- Contact Start -->
+		<div class="container-fluid p-5" id="contact">
+			<div class="row" id="bgColor">
+				<div class="col d-none d-sm-block">
+					<img src="./images/contactUs.jpg">
+				</div>
+				<div class="col m-5 p-5 my-auto">
+					<form class="p-3 m-3">
+						<h3 id="text-title-contact">Contact Us</h3>
+						<p id="base-contact">Should you need assistance, please contact us!.</p>
+						<div class="mb-3">
+						<label for="name" class="form-label">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">Email Address</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+					</div>
+					<div class="mb-3">
+						<label for="contactNumber" class="form-label">Contact Number</label>
+						<input type="number" class="form-control" id="contactNumber" placeholder="Enter your contact number" required>
+					</div>
+					<div class="mb-3">
+						<label for="message" class="form-label">Message</label>
+						<textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+					</div>
+					<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDiv">
+						Submit
+					</button>
+						</div>
+					</form>
+
+				</div>
+				<!-- Modal Start -->
+				<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel">Form Submission</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body" id="modalDiv">
+								Thank you for submitting the form. We will get back to you shortly.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal End -->
+			<div id="map" class="row m-3 justify-content-md-center text-center">
+				<h3 class="my-3">Visit Us</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127482.66733847573!2d101.6044149828978!3d3.1386740621155904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362abd08e7d3%3A0x232e1ff540d86c99!2sKuala%20Lumpur%2C%20Federal%20Territory%20of%20Kuala%20Lumpur%2C%20Malaysia!5e0!3m2!1sen!2sph!4v1736865617311!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		<!-- Map Section End -->
+
+				<!-- Social Section Start -->
+				<div id="social" class="row justify-content-md-center mt-5 text-center">
+					<h3 class="my-3">You may also reach us through</h3>
+					<img src="https://i.pinimg.com/736x/93/87/90/938790b17acb5b3b8236d65ce8c4fc45.jpg" class="col-3 col-md-1 rounded-circle">
+					<img src="https://i.pinimg.com/736x/b1/9c/b7/b19cb7de38d8fa0424cf9717aade29d8.jpg" class="col-3 col-md-1 rounded-circle">
+					<img src="https://i.pinimg.com/736x/c3/2b/b3/c32bb35a889f7d670fa3a7f0b23a35f8.jpg"  class="col-3 col-md-1 rounded-circle" >
+					<img src="https://i.pinimg.com/736x/30/44/2a/30442a06ccf25e328e68a78c606b74f0.jpg" class="col-3 col-md-1 rounded-circle">
+
+				</div>
+		<!-- Social Section End -->
+			</div>
+		</div>
+		<!-- Contact End -->
+
+ 		<!-- Tools Section Start -->
+        <div id="tools" class="container-fluid p-5 mt-5 text-center">
+
+         <!-- Core Tools Section Start -->
+            <h3>Core Tools</h3>
+
+                <div id="core-tools" class="d-flex flex-column">
+                    <div id="html-img" class="d-flex justify-content-center">
+                        <img width="150" src="images/logo-html5.png"/>
+                    </div>
+                    <div id="css-js" class="d-flex justify-content-center">
+                        <img width="150" src="images/logo-css3.png"/>
+                        <img width="150" src="images/logo-javascript.png"/>
+                    </div>
+                </div>
+                <!-- Core Tools Section End -->
+                
+                <!-- Other Tools Section Start -->
+                <h3 class="text-center mt-3">Other Tools</h3>
+
+                <div id="other-tools" class="d-flex flex-md-column justify-content-sm-center align-items-md-center">
+
+                    <div id="tools-1" class="d-md-flex flex-column flex-md-row justify-content-center">
+                        <img width="150" src="images/logo-mongodb.png"/>
+                        <img width="150" src="images/logo-nodejs.png"/>
+                        <img width="150" src="images/logo-expressjs.png"/>
+                        <img width="150" src="images/logo-react.png"/>
+                        <img width="150" src="images/logo-heroku.png"/>
+                    </div>
+                    <div id="tools-2" class="d-md-flex flex-column flex-md-row justify-content-center">
+                        <img width="150" src="images/logo-git.png"/>
+                        <img width="150" src="images/logo-sublime-text-3.png"/>
+                        <img width="150" src="images/logo-postman.png"/>
+                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+                    </div>
+                </div>
+                <!-- Other Tools Section End -->
+                
+        </div>
+            <!-- Tools Section End -->
+
+
+	<footer>
+		<div id="footer">
+			<div class="col-12 py-3 text-center bg-primary">
+				2025 | All right reserved.
+			</div>
+		</div>
+	</footer>
+		<!-- Bootstrap JS Start-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<!-- Bootstrap JS End-->
+	</body>
+</html>
